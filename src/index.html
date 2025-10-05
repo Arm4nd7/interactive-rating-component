@@ -9,8 +9,10 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 	<link rel="stylesheet" href="styles.css">
 	<title>Frontend Mentor | Interactive rating component</title>
-
-	<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
 
 </head>
 
@@ -32,31 +34,35 @@
 
 	<main>
 		<form action="">
-			<div>
-				<label for="uno">1</label>
-				<input class="item"  id="uno" hidden type="checkbox">
+			<div class="uno">
+				<label   for="uno">1</label>
+				<input class="item" id="uno"  hidden type="submit">
 			</div>
-			<div>
-				<label for="dos">2</label>
+
+			<div class="dos">
+				<label  for="dos">2</label>
 				<input class="item" id="dos" hidden type="submit">
 			</div>
-			<div>
+
+			<div class="tres">
 				<label for="tres">3</label>
 				<input class="item" id="tres" hidden type="submit">
 			</div>
-			<div>
-				<label for="cuatro">4</label>
+
+			<div class="cuatro">
+				<label  for="cuatro">4</label>
 				<input class="item" id="cuatro" hidden type="submit">
 			</div>
-			<div>
-				<label for="cinco">5</label>
+
+			<div class="cinco">
+				<label  for="cinco">5</label>
 				<input class="item" id="cinco" hidden type="submit">
 			</div>
-			<button type="submit">Submit</button>
 		</form>
+		<button  type="submit">SUBMIT</button>
 
-		<p class="respuesta">Respuesta</p>
 	</main>
+	<p class="respuesta">Respuesta</p>
 
 	<!-- Rating state end -->
 
