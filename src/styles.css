@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    background-color: hsl(216, 12%, 8%);
+}
+
+body {
+    display: block;
+    margin: 0rem 25rem 0rem 25rem;
+    padding: 0rem 3rem 0rem 3rem;
+    border-radius: 2rem;
+    max-width: 375vw;
+    background-color: hsl(213, 19%, 18%);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 3rem 0rem 2rem 0rem;
+}
+
+img {
+    padding: 3%;
+    border-radius: 50%;
+    background-color: hsla(217, 12%, 63%, 0.208);
+}
+
+h2 {
+    color: white;
+    padding: 2rem 0rem 1rem 0rem;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+main {
+    display: grid;
+    grid-template-areas: "form";
+    grid-template-columns: 1fr;
+}
+
+form {
+    display: flex;
+    grid-area: form;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+main form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 3%;
+    border-radius: 50%;
+    background-color: hsla(217, 12%, 63%, 0.208);
+    font-size: 100%;
+    font-weight: 700;
+}
+
+label {
+    padding: 1rem;
+    border-radius: 8rem;
+}
+
+main form div:hover {
+    background-color: white;
+}
+
+la .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+button{
+    font-family: "Overpass", sans-serif;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    font-size: 17px;
+    border-radius: 2rem;
+    font-weight: 850;
+    letter-spacing: 2px;
+    background-color: hsl(25, 97%, 53%);
+}
+
+button:hover{
+    background-color: white;
+}
+
+@media(min-width: 100px) and (max-width:480px){
+    body{
+        margin: 2rem;
+        padding: 0rem 3rem 0rem 3rem;
+    }
+    
+    form{
+        justify-content: space-between;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media(min-width: 481px) and (max-width: 768px){
+    body{
+        margin: 0rem 7rem 0rem 7rem;
+        padding: 0rem 3rem 0rem 3rem;
+    }
+    
+    form{
+        justify-content: space-between;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1280px){
+    body{
+        margin: 0rem 7rem 0rem 7rem;
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    header{
+        text-align: center;
+    }
+    
+    form{
+        justify-content: space-between;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+    }
+}
