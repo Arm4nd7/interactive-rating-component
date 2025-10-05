@@ -10,9 +10,10 @@ let divCuatro = document.querySelector(".cuatro");
 let divCinco = document.querySelector(".cinco");
 let respuesta = document.querySelector(".respuesta");
 let item = document.querySelectorAll(".item");
-let itemContainer = document.querySelectorAll(".input-container");
-let contadorTotal = document.querySelector(".contadorTotal");
-let div = document.querySelector("div")
+let buttonSubmit = document.querySelector("button");
+let header = document.querySelector("header");
+let rating = document.querySelector(".rating");
+let answer = document.querySelector(".answer");
 
 //foreach para saber que numero fue clickeado
 //swich para estabelcer el valor del texto
@@ -62,6 +63,11 @@ item.forEach((input) => {
                 divCinco.setAttribute("style", "background-color: hsl(25, 97%, 53%)")
                 break;
         }
-
     });
 });
+
+buttonSubmit.addEventListener("click", ()=>{
+    header.style.display = "none";
+    rating.style.display = "none";
+    answer.style.display = "block";
+})
