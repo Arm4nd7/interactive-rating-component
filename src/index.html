@@ -33,50 +33,58 @@
 	</header>
 
 	<main>
-		<form action="">
-			<div class="uno">
-				<label   for="uno">1</label>
-				<input class="item" id="uno"  hidden type="submit">
-			</div>
 
-			<div class="dos">
-				<label  for="dos">2</label>
-				<input class="item" id="dos" hidden type="submit">
-			</div>
+		<section class="rating">
+			<form action="">
+				<div class="uno">
+					<label for="uno">1</label>
+					<input class="item" id="uno" hidden type="submit">
+				</div>
 
-			<div class="tres">
-				<label for="tres">3</label>
-				<input class="item" id="tres" hidden type="submit">
-			</div>
+				<div class="dos">
+					<label for="dos">2</label>
+					<input class="item" id="dos" hidden type="submit">
+				</div>
 
-			<div class="cuatro">
-				<label  for="cuatro">4</label>
-				<input class="item" id="cuatro" hidden type="submit">
-			</div>
+				<div class="tres">
+					<label for="tres">3</label>
+					<input class="item" id="tres" hidden type="submit">
+				</div>
 
-			<div class="cinco">
-				<label  for="cinco">5</label>
-				<input class="item" id="cinco" hidden type="submit">
-			</div>
-		</form>
-		<button  type="submit">SUBMIT</button>
+				<div class="cuatro">
+					<label for="cuatro">4</label>
+					<input class="item" id="cuatro" hidden type="submit">
+				</div>
 
+				<div class="cinco">
+					<label for="cinco">5</label>
+					<input class="item" id="cinco" hidden type="submit">
+				</div>
+			</form>
+			<button type="submit">SUBMIT</button>
+		</section>
 	</main>
-	<p class="respuesta">Respuesta</p>
-
 	<!-- Rating state end -->
 
 	<!-- Thank you state start -->
+	<section class="answer">
+		<div class="header">
+			<img src="./assets/images/illustration-thank-you.svg" alt="thankyou-img">
+			<div class="rating-response">
+				You selected <p class="respuesta">Respuesta</p> out of 5
+			</div>
+		</div>
 
-	You selected <!-- Add rating here --> out of 5
+		<h2>Thank you!</h2>
 
-	Thank you!
+		<p>
+			We appreciate you taking the time to give a rating. If you ever need more support,
+			don’t hesitate to get in touch!
+		</p>
 
-	We appreciate you taking the time to give a rating. If you ever need more support,
-	don’t hesitate to get in touch!
+		<!-- Thank you state end -->
 
-	<!-- Thank you state end -->
-
+	</section>
 
 	<footer class="attribution">
 		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
