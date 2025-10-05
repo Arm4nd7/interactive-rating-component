@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="styles.css">
+	<title>Frontend Mentor | Interactive rating component</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- Rating state start -->
+	<header>
+		<div>
+			<img src="./assets/images/icon-star.svg" alt="star">
+		</div>
+
+		<h2>How did we do?</h2>
+
+		<p>
+			Please let us know how we did with your support request. All feedback is appreciated
+			to help us improve our offering!
+		</p>
+	</header>
+
+	<main>
+
+		<section class="rating">
+			<form action="">
+				<div class="uno">
+					<label for="uno">1</label>
+					<input class="item" id="uno" hidden type="submit">
+				</div>
+
+				<div class="dos">
+					<label for="dos">2</label>
+					<input class="item" id="dos" hidden type="submit">
+				</div>
+
+				<div class="tres">
+					<label for="tres">3</label>
+					<input class="item" id="tres" hidden type="submit">
+				</div>
+
+				<div class="cuatro">
+					<label for="cuatro">4</label>
+					<input class="item" id="cuatro" hidden type="submit">
+				</div>
+
+				<div class="cinco">
+					<label for="cinco">5</label>
+					<input class="item" id="cinco" hidden type="submit">
+				</div>
+			</form>
+			<button type="submit">SUBMIT</button>
+		</section>
+	</main>
+	<!-- Rating state end -->
+
+	<!-- Thank you state start -->
+	<section class="answer">
+		<div class="header">
+			<img src="./assets/images/illustration-thank-you.svg" alt="thankyou-img">
+			<div class="rating-response">
+				You selected <p class="respuesta">Respuesta</p> out of 5
+			</div>
+		</div>
+
+		<h2>Thank you!</h2>
+
+		<p>
+			We appreciate you taking the time to give a rating. If you ever need more support,
+			don’t hesitate to get in touch!
+		</p>
+
+		<!-- Thank you state end -->
+
+	</section>
+
+	<footer class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+		Coded by <a href="#">Your Name Here</a>.
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
