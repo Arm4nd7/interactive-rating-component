@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- My solution: [👀](https://your-solution-url.com)
-- Live Site URL: [👀](https://your-live-site-url.com)
+- [My solution: 👀](https://www.frontendmentor.io/solutions/proyecto-hecho-con-html-js-css-puro-ok1ivXqpAd)
+-  [Live Site URL:👀](https://arm4nd7.github.io/interactive-rating-component/)
 
 ## My process❓
 
@@ -59,7 +59,7 @@ Conference-Tickets/
 
 ## Author
 
-- Website - [Armando Estevez](https://www.your-site.com)
+- Website - [Armando Estevez](https://github.com/Arm4nd7)
 - Frontend Mentor - [@Arm4nd7](https://www.frontendmentor.io/profile/Arm4nd7)
 
 ## Acknowledgments🎁
