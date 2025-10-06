@@ -140,25 +140,34 @@ label {
 
 .rating form div:hover {
     background-color: white;
+    transition: 1s ease-in-out;
 }
 
-.attribution{
+.attribution {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-size: 11px;
+    font-size: 17px;
+    color: white;
+}
+
+.attribution a {
+    font-size: 20px;
     text-align: center;
     color: hsl(228, 45%, 44%);
+    cursor: pointer;
 }
 
 button {
     font-family: "Overpass", sans-serif;
     margin-top: 1.5rem;
     padding: 0.8rem;
-    font-size: 17px;
     border-radius: 2rem;
     font-weight: 850;
     letter-spacing: 2px;
-    background-color: hsl(25, 97%, 53%);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    background-color: hsla(25, 97%, 53%, 0.719);
+    border: none;
 }
 
 button:hover {
@@ -195,7 +204,7 @@ button:hover {
 
 @media(min-width: 769px) and (max-width: 1280px) {
     body {
-        margin: 0rem 25rem 0rem 25rem;
+        margin: 0rem 13rem 0rem 13rem;
         padding: 0rem 3rem 0rem 3rem;
     }
 
